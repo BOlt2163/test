@@ -1,14 +1,4 @@
-def prime(num):
-    if num == 0 or n == 1:
-        return print("it is not a prime no.")
-    else:
-        for i in range(2,num//2):
-            if num%i == 0:
-                return print("it is not a prime no.")
-
-            else:
-                return print("It is a prime no.")
-
-if __name__ == '__main__':
-    n = int(input("Enter the no.:\n"))
-    print(prime(n))
+print("Flight has landed")
+print("Proceed for immigration check")
+for passenger_count in 1,2,3,4,5:
+    print("Immigration check done for passenger,", passenger_count)
